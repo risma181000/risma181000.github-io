@@ -69,7 +69,7 @@ body:before {
   text-align: justify;
 }
 p.light {
-  color: #777;
+  color: #764B20;
 }
 h2 {
   font-family: 'Open Sans';
@@ -96,7 +96,7 @@ h3 {
 }
 .top-bar {
   height: 220px;
-  background-color: #848484;
+  background-color: #BBC7B1 ;
   color: #fff;
 }
 .name {
@@ -127,8 +127,10 @@ h3 {
   right: false;
   bottom: 0;
   width: 350px;
-  background-color: #f7e0c1;
+  background-color: #CC9B82;
   padding: 320px 30px 50px;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
 }
 .mugshot {
   display: false;
@@ -204,7 +206,7 @@ h3 {
   background: url("https://cdn0.iconfinder.com/data/icons/social-media-and-logos-12/32/Google_Gmail_envelope_letter_email-512.png") center no-repeat;
 }
 .social.linked-in:before {
-  background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_LinkedIn-128.png") center no-repeat;
+  background: url("https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png") center no-repeat;
 }
 .side-header {
   font-family: 'Open Sans';
@@ -244,7 +246,7 @@ h3 {
   background-color: #999;
 }
 .greyed {
-  background-color: #ddd;
+  background-color: #C3D0A8;
   width: 100%;
   max-width: 580px;
   text-align: center;
@@ -265,14 +267,34 @@ h3 {
   }
 }
 img {
-   width: 200px;
-   height: 200px;
-   border-radius: 50%;
+   width: 250px;
+   height: 250px;
+   border-radius: 70%;
    margin-top: 10px;
    margin-left: 32px;
-   margin-right: 35px;
+   margin-right: 50px;
+   position: relative;
+   right: 30px;
+
 }
 a {
     text-decoration: none;
     color: black;
+}
+.titlee {
+  font-size: 15px;
+  line-height: 25px;
+}
+.edukasi {
+  background-color: #C3D0A8;
+}
+p{
+  color: #764B20;
+}
+
+h3 {
+  color: #764B20;
+}
+li {
+  color: #764B20;
 }
